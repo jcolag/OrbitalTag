@@ -3,31 +3,28 @@
   xmlns:svg="http://www.w3.org/2000/svg"
   xmlns="http://www.w3.org/2000/svg"
   version="1.1" width="400" height="400">
-  <circle
-    id="back"
-    cx="200" cy="200" r="190"
-    stroke="black" stroke-width="10"
-    fill="transparent" />
-  <rect
-    id="hand"
-    x="199" y="199" width="2" height="60"
-    stroke="black" stroke-width="3"
-    fill="transparent">
-    <animateTransform
-      id="hand-rotate"
-      attributeName="transform"
-      begin="0s"
-      dur="32s"
-      type="rotate"
-      from="0 200 200"
-      to="360 200 200"
-      repeatCount="indefinite"
-    />
-  </rect>
-  <circle
-    id="dot"
-    cx="40" cy="40" r="5"
-    fill="red"
-  />
+  <g id="group">
+    <circle
+      id="back"
+      cx="200" cy="200" r="190"
+      stroke="black" stroke-width="10"
+      fill="transparent" />
+    <rect
+      id="hand"
+      x="199" y="199" width="2" height="60"
+      stroke="black" stroke-width="3"
+      fill="transparent">
+      <animateTransform
+        id="hand-rotate"
+        attributeName="transform"
+        begin="0s"
+        dur="32s"
+        type="rotate"
+        from="0 200 200"
+        to="360 200 200"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </g>
 </svg>
 
