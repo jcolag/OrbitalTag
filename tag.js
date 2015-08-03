@@ -41,7 +41,7 @@ function placeDot(count) {
   var svgDoc = svg.contentDocument;
   var g = svgDoc.getElementById("group");
   var back = svgDoc.getElementById("back");
-  var radius = parseInt(back.getAttribute("r"));
+  var radius = parseInt(back.getAttribute("r")) - 5;
 
   for (var i = 0; i < count; i++) {
     var r = Math.floor(Math.random() * radius);
